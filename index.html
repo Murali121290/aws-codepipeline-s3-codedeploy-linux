@@ -2,72 +2,140 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to AWS CodePipeline Demo</title>
+  <title>DevOps Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/*background: linear-gradient(to right, #1e3c72, #2a5298); /* Clean blue gradient */
-       background: linear-gradient(to right, #ff9a9e, #fad0c4); /*Soft pink gradient */
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-size: cover;
-      background-position: center;
+      font-family: 'Amazon Ember', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #16191f;
+    }
+
+    header {
+      background-color: #232f3e;
+      color: #fff;
+      padding: 25px 20px;
       text-align: center;
     }
 
-    .container {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 50px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-      max-width: 700px;
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
     }
 
-    h1 {
-      font-size: 52px;
-      margin-bottom: 20px;
+    nav {
+      background-color: #232f3e;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f3f3f3;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      color: #ff9900;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+      background-color: #f3f3f3;
+    }
+
+    section {
+      margin-bottom: 40px;
     }
 
     h2 {
-      font-size: 26px;
-      margin-bottom: 30px;
-      font-weight: normal;
+      color: #ff9900;
+      margin-bottom: 10px;
     }
 
-    p {
-      font-size: 18px;
-      line-height: 1.6;
+    ul, ol {
+      padding-left: 20px;
     }
 
-    .button {
-      margin-top: 30px;
-      padding: 12px 25px;
-      background-color: #007bff;
+    footer {
+      background-color: #232f3e;
       color: #fff;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      text-decoration: none;
-      cursor: pointer;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
     }
 
-    .button:hover {
-      background-color: #0056b3;
+    .highlight {
+      background-color: #ff9900;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🎉 3rd change Website Deployment  Successful!</h1>
-    <h2>Welcome to the AWS third change  CodePipeline Demo</h2>
-    <p>This page is hosted on Elastic Beanstalk and deployed automatically through CodePipeline.<br>
-    <strong>Deployment Date:</strong> 10 July 2025</p>
-    <a href="https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html" class="button" target="_blank">View AWS Docs</a>
-  </div>
+
+  <header>
+    <h1>DevOps Engineering</h1>
+    <p>Automation | CI/CD | Cloud | Monitoring</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tools">Tools</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About DevOps</h2>
+      <p>DevOps is a set of practices that combines software development and IT operations. It aims to shorten the software development lifecycle and deliver high-quality software continuously. DevOps promotes automation, collaboration, and monitoring at all steps of software construction.</p>
+    </section>
+
+    <section id="tools">
+      <h2>Key DevOps Tools</h2>
+      <ul>
+        <li><strong>Git</strong> – Version Control</li>
+        <li><strong>Jenkins</strong> – CI/CD Automation</li>
+        <li><strong>Docker</strong> – Containerization</li>
+        <li><strong>Kubernetes</strong> – Container Orchestration</li>
+        <li><strong>Terraform</strong> – Infrastructure as Code</li>
+        <li><strong>Prometheus + Grafana</strong> – Monitoring</li>
+        <li><strong>Ansible</strong> – Configuration Management</li>
+      </ul>
+    </section>
+
+    <section id="pipeline">
+      <h2>DevOps Pipeline</h2>
+      <p>A typical DevOps pipeline includes the following stages:</p>
+      <ol>
+        <li>Plan</li>
+        <li>Develop</li>
+        <li>Build</li>
+        <li>Test</li>
+        <li>Release</li>
+        <li>Deploy</li>
+        <li>Operate</li>
+        <li>Monitor</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For DevOps services, training, or collaboration, reach out at: <span class="highlight">devops@example.com</span></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 DevOps Engineering | Built with AWS principles
+  </footer>
+
 </body>
 </html>
